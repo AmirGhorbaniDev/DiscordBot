@@ -1,0 +1,43 @@
+#How to Use This Code
+#Install Python:
+pip install discord.py
+#Make sure Python 3.8 or higher is installed on your Mac.
+#Check with: 
+python3 --version.
+#Install Required Library:
+
+Install the discord.py library, 
+#which is used to interact with the Discord API.
+
+pip install discord.py
+
+#Create a Bot Token:
+
+#Go to the Discord Developer Portal.
+#Create a new application.
+#Add a bot to the application.
+#Copy the bot's token and replace YOUR_BOT_TOKEN_HERE in the code above.
+#Enable Member Events:
+
+#In the Discord Developer Portal:
+#Navigate to your bot settings.
+#Enable the SERVER MEMBERS INTENT.
+#Run the Bot:
+
+#Save the code as bot.py.
+#Open a terminal, navigate to the file location, and run:
+
+python3 bot.py
+#Invite the Bot to a Server:
+
+#In the Discord Developer Portal, generate an OAuth2 URL:
+#Go to OAuth2 > URL Generator.
+#Select the "bot" scope and the necessary permissions.
+#Use the generated link to invite the bot to your server.
+#Test the Bot:
+
+#Add a new member to your server to trigger the welcome message.
+#Tips
+#Customization: You can modify the welcome_message variable to suit your needs.
+#Error Handling: The try block ensures the bot doesn't crash if it can't send a message.
+#Secure the Token: Never share your bot token. If exposed, regenerate it immediately.
